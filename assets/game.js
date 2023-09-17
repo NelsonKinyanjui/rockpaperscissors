@@ -1,5 +1,6 @@
-function getComputerChoice(){
-    let result = math.floor(math.random() * 3);
+ function getComputerChoice(){
+
+    let result = Math.floor(Math.random() * 3);
    switch (result){
     case 0:
     return 'rock';
@@ -10,3 +11,7 @@ function getComputerChoice(){
    }
 }
 console.log(getComputerChoice());
+function playRound(payerSelection,computerSelection){
+return `you loose! ${computerSelection} beats ${playerSelection} `;
+}
+console.log(playRound());
