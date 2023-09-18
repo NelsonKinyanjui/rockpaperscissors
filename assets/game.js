@@ -10,7 +10,10 @@
         return 'scissors';
    }
 }
+const computerSelection = getComputerChoice();
 console.log(getComputerChoice());
+ const playerSelection = 'rock';
+
 function playRound(payerSelection,computerSelection){
 return `you loose! ${computerSelection} beats ${playerSelection} `;
 }
