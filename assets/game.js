@@ -1,4 +1,7 @@
 
+function game(){
+for (i= 0; i <= 5; i++){
+
 function getComputerChoice(){
     const randomNumber= Math.floor(Math.random() * 2);
     switch(randomNumber){
@@ -23,3 +26,8 @@ function playRound(playerSelection ,computerSelection){
 
 }
 console.log(playRound(playerSelection,computerSelection));
+
+}
+
+}
+console.log(game());
