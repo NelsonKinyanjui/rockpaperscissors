@@ -13,5 +13,13 @@ function getComputerChoice(){
     
     }
 }
+const playerSelection = 'rock';
 const computerSelection = getComputerChoice();
 console.log(`computer choice is ${computerSelection}`);
+
+function playRound(playerSelection ,computerSelection){
+    return `You lose ${playerSelection} beats ${computerSelection}`;
+    
+
+}
+console.log(playRound(playerSelection,computerSelection));
