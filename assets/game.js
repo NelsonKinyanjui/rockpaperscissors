@@ -16,7 +16,7 @@ function getComputerChoice(){
     
     }
 }
-const playerSelection = 'rock';
+const playerSelection = prompt('');
 const computerSelection = getComputerChoice();
 console.log(`computer choice is ${computerSelection}`);
 
