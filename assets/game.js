@@ -17,6 +17,7 @@ function getComputerChoice(){
     }
 }
 const playerSelection = prompt('');
+console.log(`Your choice is ${playerSelection}`)
 const computerSelection = getComputerChoice();
 console.log(`computer choice is ${computerSelection}`);
 
